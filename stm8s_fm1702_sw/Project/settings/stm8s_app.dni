@@ -1,0 +1,86 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[Simulator]
+Freq=16000000
+[DebugChecksum]
+Checksum=1459236873
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[struct_types]
+Fmt0=COM_STD_STRUCT-check	4	0
+Fmt1=COM_STD_STRUCT-cmd	4	0
+Fmt2=COM_STD_STRUCT-end	4	0
+Fmt3=COM_STD_STRUCT-head	4	0
+Fmt4=COM_STD_STRUCT-len	4	0
+Fmt5=KEY_STRUCT-changeDelay	3	0
+Fmt6=KEY_STRUCT-counter	3	0
+Fmt7=KEY_flag-level	4	0
+Fmt8=KEY_flag-state	4	0
+Fmt9=KEY_flag-trig	4	0
+Fmt10=KEY_flag-unlash	4	0
+[array_types]
+Fmt0=UINT8[100]	4	0
+Fmt1=UINT8[10]	4	0
+Fmt2=UINT8[16]	4	0
+Fmt3=UINT8[20]	4	0
+[watch_formats]
+Fmt0={W}1:temp	3	0
+Fmt1={W}1:u8_bootloadReadyCmdIndex	4	0
+Fmt2={W}1:u8_tempOld	3	0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\Driver\mifare.c}.232.9" 1 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\System\sys_task.c}.180.4" 1 0 0 0 "" 0 ""
+Count=2
+[Aliases]
+Count=0
+SuppressDialog=0
+[DebuggerSettings]
+DisableInterruptsWhenStepping=0

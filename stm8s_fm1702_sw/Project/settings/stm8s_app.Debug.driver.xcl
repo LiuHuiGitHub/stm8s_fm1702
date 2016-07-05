@@ -1,0 +1,15 @@
+"-p" 
+
+"D:\Program Files\IAR Systems\stm8\config\ddf\iostm8s105k6.ddf" 
+
+"-d" 
+
+"stlink" 
+
+"--mcuname" 
+
+"STM8S105K6" 
+
+
+
+
