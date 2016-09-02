@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\Program Files\IAR Systems\common\bin\cspybat" -f "E:\User\桌面\stm8_fm1702\stm8s_fm1702_sw\Project\settings\stm8s_fm1702_sw.Debug.general.xcl" --backend -f "E:\User\桌面\stm8_fm1702\stm8s_fm1702_sw\Project\settings\stm8s_fm1702_sw.Debug.driver.xcl" 
+"D:\Program Files\IAR Systems\common\bin\cspybat" -f "E:\User\桌面\stm8_fm1702\stm8s_fm1702\stm8s_fm1702_sw\Project\settings\stm8s_fm1702_sw.Debug.general.xcl" --backend -f "E:\User\桌面\stm8_fm1702\stm8s_fm1702\stm8s_fm1702_sw\Project\settings\stm8s_fm1702_sw.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\Program Files\IAR Systems\common\bin\cspybat" -f "E:\User\桌面\stm8_fm1702\stm8s_fm1702_sw\Project\settings\stm8s_fm1702_sw.Debug.general.xcl" "--debug_file=%~1" --backend -f "E:\User\桌面\stm8_fm1702\stm8s_fm1702_sw\Project\settings\stm8s_fm1702_sw.Debug.driver.xcl" 
+"D:\Program Files\IAR Systems\common\bin\cspybat" -f "E:\User\桌面\stm8_fm1702\stm8s_fm1702\stm8s_fm1702_sw\Project\settings\stm8s_fm1702_sw.Debug.general.xcl" "--debug_file=%~1" --backend -f "E:\User\桌面\stm8_fm1702\stm8s_fm1702\stm8s_fm1702_sw\Project\settings\stm8s_fm1702_sw.Debug.driver.xcl" 
 
 @echo off 
 :end

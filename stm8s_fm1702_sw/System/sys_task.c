@@ -146,9 +146,9 @@ UINT8 PWD_Card[] = { 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF };
 static void sys_taskCycle100ms(void)
 {
     static UINT8 ledCounter = 0;
-	static BOOL b_flag = FALSE;
+//	static BOOL b_flag = FALSE;
 	UINT8 temp1;
-	UINT8 buff[20];
+	char buff[20];
     ledCounter++;
 	ledCounter %= 10;
     if(ledCounter > 5)
@@ -185,7 +185,7 @@ static void sys_taskCycle100ms(void)
 		sprintf(buff, "Page_Reg: 0x%2x", (UINT16)temp1);
 		
 		GUI_PutString(8, 20, buff);
-		
+
 		
 		drv_fm1702LoadKey(PWD_Card);
 		drv_fm1702HaltCard();

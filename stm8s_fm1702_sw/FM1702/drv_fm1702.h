@@ -7,33 +7,21 @@
 //;==============================================
 //;FM1702SL¿ØÖÆ¼Ä´æÆ÷¶¨Òå
 //;==============================================
-#define		Page_Reg                0x00	//			Ð´£º0x00
-#define		Command_Reg             0x01	//¶Á£º0x82	Ð´£º0x02
-#define		FIFO_Reg                0x02	//¶Á£º0x84	Ð´£º0x04
-#define		FIFOLength_Reg		    0x04	//¶Á£º0x88
-#define		SecondaryStatus_Reg  	0x05	//¶Á£º0x8A
-#define		InterruptEn_Reg		    0x06	//			Ð´£º0x0C
-#define		InterruptRq_Reg		    0x07	//¶Á£º0x8E	Ð´£º0x0E
-#define		Control_Reg		        0x09	//¶Á£º0x92	Ð´£º0x12 
-#define		ErrorFlag_Reg           0x0A	//¶Á£º0x94
-#define		BitFraming_Reg	     	0x0F	//			Ð´£º0x1E
-#define		TxControl_Reg           0x11	//			Ð´£º0x22
-#define		CwConductance_Reg	    0x12
-#define		RxControl2_Reg		    0x1E
-#define     RxWait_Reg              0x21
-#define		ChannelRedundancy_Reg	0x22
-
-
-//;==============================================
-//;FM1702SL·¢ËÍÃüÁî´úÂë
-//;==============================================
-#define		WriteEE			  	0x01
-#define		LoadKeyE2		  	0x0B
-#define 	LoadKey				0x19
-#define    	Transmit			0x1A
-#define		Transceive		  	0x1E
-#define		Authent1		  	0x0C
-#define		Authent2		  	0x14
+#define	Page_Reg                0x00	//¶Á£º0x80  Ð´£º0x00
+#define	Command_Reg             0x01	//¶Á£º0x82	Ð´£º0x02
+#define	FIFO_Reg                0x02	//¶Á£º0x84	Ð´£º0x04
+#define	FIFOLength_Reg		    0x04	//¶Á£º0x88
+#define	SecondaryStatus_Reg  	0x05	//¶Á£º0x8A
+#define	InterruptEn_Reg		    0x06	//			Ð´£º0x0C
+#define	InterruptRq_Reg		    0x07	//¶Á£º0x8E	Ð´£º0x0E
+#define	Control_Reg		        0x09	//¶Á£º0x92	Ð´£º0x12 
+#define	ErrorFlag_Reg           0x0A	//¶Á£º0x94
+#define	BitFraming_Reg	     	0x0F	//			Ð´£º0x1E
+#define	TxControl_Reg           0x11	//			Ð´£º0x22
+#define	CwConductance_Reg	    0x12
+#define	RxControl2_Reg		    0x1E
+#define RxWait_Reg              0x21
+#define	ChannelRedundancy_Reg	0x22
 
 //;==============================================
 //;º¯Êý´íÎó´úÂë¶¨Òå

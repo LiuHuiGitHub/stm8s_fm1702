@@ -25,6 +25,7 @@ BOOL sys_sleepGet(void)
 
 void sys_sleep(void)
 {
+	sleep();
 }
 
 void sys_sleepCycle1s(void)
